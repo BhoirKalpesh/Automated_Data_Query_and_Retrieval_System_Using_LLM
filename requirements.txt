@@ -1,0 +1,9 @@
+sentence-transformers
+ctransformers
+langchain
+streamlit
+langchain_community
+pymongo
+pandas
+langchain-huggingface
+python-dotenv

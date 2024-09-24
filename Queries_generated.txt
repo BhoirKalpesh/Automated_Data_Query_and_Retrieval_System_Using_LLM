@@ -1,0 +1,19 @@
+Input Condition: Find all products with a rating below 4.5 that have more than 200 reviews and are offered by the brand 'Nike' or 'Sony'.
+Generated Query: {"$and": [{"Rating": {"$lt": 4.5}}, {"ReviewCount": {"$gt": 200}}, {"$or": [{"Brand": "Nike"}, {"Brand": "Sony"}]}]}
+
+Input Condition: Which products in the Electronics category have a rating of 4.5 or higher and are in stock?
+Generated Query: {"$and": [{"Category": "Electronics"}, {"Rating": {"$gte": 4.5}}, {"Stock": {"$gt": 0}}]}
+
+Input Condition: List products launched after January 1, 2022, in the Home & Kitchen or Sports categories with a discount of 10% or more, sorted by price in descending order.
+Generated Query: {"$and": [
+
+  { "$or": [ { "Category": "Home & Kitchen" }, { "Category": "Sports" } ] },
+
+  { "Discount": { "$gte": 10 } },
+
+  { "LaunchDate": { "$gte": ISODate("2022-01-01T00:00:00Z") } }
+
+]},
+
+{ "Sort": { "Price": -1 } }
+
