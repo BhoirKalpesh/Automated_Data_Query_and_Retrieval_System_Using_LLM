@@ -5,9 +5,10 @@
 This project is an Automated Data Query and Retrieval System that leverages Local Language Models (LLMs) to generate MongoDB queries based on user-defined conditions. The system can read data from CSV files, load it into MongoDB, and execute generated queries to retrieve results. 
 
 ## Output
-![alt text](<Screenshot (345).png>)
+![alt text](image.png)
 
-![alt text](<Screenshot (346).png>)
+![alt text](image2.png)
+
 
 ## Approach
 
