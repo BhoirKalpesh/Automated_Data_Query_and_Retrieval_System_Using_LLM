@@ -31,7 +31,7 @@ For local setup, you can use the quantized version of the model for better perfo
 Make sure to place the downloaded model file in the appropriate directory within your project to enable smooth integration with the system.
 
 
-### Environment Setup
+## Environment Setup
 
 This project uses a Conda virtual environment. Follow these steps to set it up:
 
